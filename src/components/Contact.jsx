@@ -18,19 +18,19 @@ const Contact = () => {
                 <form className='max-w-3xl'>
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Name' className='mr-7 font-semibold'>Name</label>
-                        <input className='border p-3 focus:outline-none focus:border-[#CCCCCC] w-full' id='Name'></input>
+                        <input className='border p-3 focus:outline-none focus:border-[#1DA1F2] w-full' id='Name'></input>
                     </div>
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Email' className='mr-8 font-semibold'>Email</label>
-                        <input className='border p-3 focus:outline-none focus:border-[#CCCCCC] w-full' id='Email'></input>
+                        <input className='border p-3 focus:outline-none focus:border-[#1DA1F2] w-full' id='Email'></input>
                     </div>
                     <div className='md:flex justify-between items-center mb-8'>
                         <label htmlFor='Subject' className='mr-4 font-semibold'>Subject</label>
-                        <input className='border p-3 focus:outline-none focus:border-[#CCCCCC] w-full' id='Subject'></input>
+                        <input className='border p-3 focus:outline-none focus:border-[#1DA1F2] w-full' id='Subject'></input>
                     </div>
                     <div className='md:flex justify-between'>
                         <label htmlFor='Message' className='mr-2 font-semibold'>Message</label>
-                        <textarea className='border p-3 focus:outline-none focus:border-[#CCCCCC] w-full h-48' id='Message'></textarea>
+                        <textarea className='border p-3 focus:outline-none focus:border-[#1DA1F2] w-full h-48' id='Message'></textarea>
                     </div>
                     <div className='mt-4 md:ml-[4.5rem]'>
                         <button href='/#' className='border border-color-[#404040] px-8 py-4 inline-block hover:text-[#F2F2F2] hover:bg-primary'>Send Message</button>
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='text-center mt-5'>
-            <p className='text-sm'>Copyright © 2022 All rights reserved | Developed by Fave ⚡</p>
+            <p className='text-sm'><a href='https://www.twitter.com/fav_bdk'>Copyright © 2022 All rights reserved | Developed by Fave ⚡</a></p>
             <span className='flex items-center gap-8 mx-auto w-24 md:w-48 my-4'>
                 <a href='/#' className='hover:text-[#1DA1F2]'> <GrTwitter className='w-6 ' /> </a>
                 <a href='/#' className='hover:text-[#DD2A7B]'> <GrInstagram className='w-6' /> </a>

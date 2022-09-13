@@ -22,13 +22,13 @@ const Header = () => {
 
         <ul className={`nav-ul ${isOpen ? " nav-ul" : "showMenu"}`}>
                 <li className='py-2 border-b'><a href='/#' className='hover:text-secondary'>Home</a></li>
-                <li className='py-2 border-b'><a href='#about' className='hover:textsecondary'>About Me</a></li>
+                <li className='py-2 border-b'><a href='#about' className='hover:text-secondary'>About Me</a></li>
                 <li className='py-2 border-b'><a href='#gallery' className='hover:text-secondary'>Gallery</a></li>
                 <li className='py-2 border-b'><a href='#clients' className='hover:text-secondary'>Clients</a></li>
                 <li className='py-2 border-b'><a href='#contact' className='hover:text-secondary'>Contact Me</a></li>
             </ul>
 
-             <span className='flex p-6 sm:hidden'><Hamburger toggled={isOpen} toggle={handleToggle} color='#404040' direction='right' /></span> 
+             <span className='flex p-6 sm:hidden'><Hamburger toggled={isOpen} toggle={handleToggle} color='#DBDAD8' direction='right' /></span> 
         </nav>
         <div className='sm:max-w-[470px] text-[#F2F2F2] w-[18rem] ml-4 bottom-4 left-10 sm:text-primary pt-4 md:[2.7rem] lg:pt-60 md:ml-20 absolute sm:static'>
             <h1 className='text-lg sm:text-2xl font-bold'>Hello,</h1>
