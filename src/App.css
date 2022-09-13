@@ -1,0 +1,18 @@
+.nav-ul{
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 8px 48px 24px 48px;
+    top: 90px;
+    left: 60px;
+    border-radius: 6px;
+    width: 70%;
+    text-align: center;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    margin-left: auto;
+    overflow: hidden;
+    flex-direction: column;
+}
+.showMenu{
+    display: none;
+}
